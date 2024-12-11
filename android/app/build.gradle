@@ -51,6 +51,7 @@ react {
     // hermesFlags = ["-O", "-output-source-map"]
 
     /* Autolinking */
+    entryFile = file("../../index.tsx") // Path ke file index.tsx Anda
     autolinkLibrariesWithApp()
 }
 

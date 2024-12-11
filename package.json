@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "bundle": "react-native bundle --entry-file index.tsx --platform android --bundle-output android/app/src/main/assets/index.android.bundle --dev false"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -21,7 +22,9 @@
     "react-native": "0.75.4",
     "react-native-safe-area-context": "^4.14.0",
     "react-native-screens": "^3.35.0",
-    "react-native-svg": "^15.8.0"
+    "react-native-svg": "^15.8.0",
+    "react-native-virtualized-view": "^1.0.0",
+    "react-native-webview": "^13.12.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

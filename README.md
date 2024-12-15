@@ -1,83 +1,63 @@
-HEAD
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PetLog:PeternakanLog   
+PetLog : Laporkan dan Pantau Kondisi Ternakmu
 
-# Getting Started
+---
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<h2>Nama Produk: PetLog : Peternakan Log - Laporkan dan Pantau Kondisi Ternakmu</h2>
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<h2>Deskripsi produk:</h2>   
+PetLog: Peternakan Log - Laporkan dan Pantau Kondisi Ternakmu adalah aplikasi mobile GIS yang dirancang untuk membantu para peternak dalam memantau dan melaporkan kondisi ternak mereka. Aplikasi ini memudahkan pelaporan kasus seperti ternak mati mendadak, ternak sakit, hingga pengajuan permohonan bantuan untuk kebutuhan ternak. Dengan fitur berbasis geospasial, PetLog memungkinkan peternak melaporkan lokasi kejadian secara akurat dan mendapatkan respons lebih cepat dari pihak terkait terutama kepada UPTD setempat.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
 
-```bash
-# using npm
-npm start
+<h2>Komponen pembangun produk: </h2>   
+<div>
+  <img src="https://miro.medium.com/v2/resize:fit:1400/0*Pk7FY6epy4BnOGei" title="Leaflet" alt="Java" width="80" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="VScode" alt="Java" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" title="JSON" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://seeklogo.com/images/F/font-awesome-logo-3010FE2434-seeklogo.com.png" title="Fontawesome" alt="Java" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" alt="Java" width="40" height="40"/>&nbsp; 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original-wordmark.svg" title="Vercel" alt="HTML" width="60" height="40"/>&nbsp;
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" title="JavaScript" alt="Android Studio" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg" title="JavaScript" alt="Kotlin" width="60" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" title="React" alt="NodeJS" width="40" height="40"/>&nbsp;
+</div>
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Start your Application
+### Sumber Data :
+- [BPS](https://yogyakarta.bps.go.id/id)
+- [DPKP DIY](https://dpkp.jatengprov.go.id/)
+- Bada Unit Pelaksana Dinas (UPTD) BBPTDK
+- [Peta Tingkat Sebaran Ternak](https://www.google.com/maps/d/edit?mid=1jD5jOHNjNmziAy_yPWB8zTEvwaoll6o&usp=sharing)
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+---
 
-### For Android
+<h2>Tangkapan layar komponen penting produk:</h2>
+<ul>
+<li>Halaman Home</li>
 
-```bash
-# using npm
-npm run android
+![Home](https://github.com/user-attachments/assets/b0561155-bcbe-4517-b38c-1ea50dc203fe)
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
+   
+<li>Menu</li><br>
 
-```bash
-# using npm
-npm run ios
+![Menu](https://github.com/user-attachments/assets/7723b22c-5fa5-48ff-ad92-8e25b211db13)
 
-# OR using Yarn
-yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+<li>Riwayat Aduan</li><br>
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+![Riwayat](https://github.com/user-attachments/assets/a42e5974-ab67-4972-9ce2-038952ea0013)
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
+<li>Tingkat Sebaran Ternak</li><br>
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+![Peta](https://github.com/user-attachments/assets/9ff215c4-635a-480d-ab86-c86a5dfba5a7)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-=======
-# AwesomeProject
-8245670f51578e7febf0e8bd9e358ac5fcaccb8c
+</ul>
